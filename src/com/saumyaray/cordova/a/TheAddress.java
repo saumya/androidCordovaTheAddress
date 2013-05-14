@@ -17,10 +17,11 @@
        under the License.
  */
 
-package com.saumyaray.cordova.theAddress;
+package com.saumyaray.cordova.a;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
+
 
 public class TheAddress extends DroidGap
 {
@@ -33,7 +34,7 @@ public class TheAddress extends DroidGap
         //super.loadUrl("file:///android_asset/www/index.html")
         //splash screen
         super.setIntegerProperty("splashscreen", R.drawable.splash);
-        super.loadUrl(Config.getStartUrl(),5000);
+        super.loadUrl(Config.getStartUrl(),2000);
     }
 }
 

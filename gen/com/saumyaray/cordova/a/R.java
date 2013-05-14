@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.saumyaray.cordova.theAddress;
+package com.saumyaray.cordova.a;
 
 public final class R {
     public static final class attr {
