@@ -51,8 +51,7 @@
             </div>
         
             <div data-role="content">
-                <div>
-                    <!-- <label>Current address :</label> -->
+                <div id="a_form">
                     <input type="text" name="text-name" id="text-name" value="" placeholder="Name">
                     <input type="text" name="text-country" id="text-country" value="" placeholder="Country">
                     <input type="text" name="text-state" id="text-state" value="" placeholder="State">
@@ -63,6 +62,7 @@
                     
                 </div>
                 <div id="a_total">
+                	<label id="text_counter"></label>
                     <label id="total_address"></label>
                 </div>
             </div>
@@ -75,6 +75,34 @@
             </div>
             
         </div><!-- /page -->
+        
+        <!-- page landscape -->
+        <div data-role="page" id="page_L">
+         
+            <div data-role="header" data-position="fixed" class="big-bar">
+            </div>
+            <div data-role="content">
+                <div id="a_total_L">
+                    <div id="all_address_List">
+                    	<label class="address_one" id="a_1">1</label>
+                    	<label class="address_one" id="a_2">2</label>
+                    	<label class="address_one" id="a_3">3</label>
+                    	<label class="address_one" id="a_4">4</label>
+                    	<label class="address_one" id="a_5">5</label>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+            </div>
+            
+        </div><!-- /page landscape -->
+        
+        
+        
+        
+        
+        
+        
 
         <!-- jQuery -->
         <script type="text/javascript" src="js/jquery/jquery-2.0.0.js"></script>
@@ -85,7 +113,11 @@
         <script type="text/javascript" src="js/libs/lawnchair-0.6.1.js"></script>
         <script type="text/javascript" src="js/libs/lawnchair_adapters/dom.js"></script>
         <script type="text/javascript" src="js/libs/lawnchair_adapters/html5-filesystem.js"></script>
+        <!-- greenshock Animation framework -->
+        <script type="text/javascript" src="js/libs/gs/TweenMax.min.js"></script>
+        <!-- <script type="text/javascript" src="js/libs/gs/jquery.gsap.min.js"></script> -->
         <!-- Framework -->
+        <script type="text/javascript" src="js/saumya/animation_engine.js"></script>
         <script type="text/javascript" src="js/saumya/app_engine.js"></script>
         <!-- <script type="text/javascript" src="js/saumya/app_engine_ts.js"></script> -->
         <!-- Lastly, initialise the application -->
